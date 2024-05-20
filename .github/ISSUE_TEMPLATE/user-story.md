@@ -7,6 +7,6 @@ assignees: ''
 
 ---
 
-Theme -> Epics -> As a **role** I can **capability** so that **received benefit**
+Theme > Epics > As a **role** I can **capability** so that **received benefit**
 
 AC1 Given/Then/When   a/an/one or more/more than one/the/they
