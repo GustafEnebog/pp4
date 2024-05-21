@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the browser and possibly bootstrap*/
 * {
     padding: 0;
@@ -12,10 +15,17 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: 3a3a3a;
+    font-family: "Raleway", sans-serif;
+    /* color: #445361; */
+    /* text-align: center; */
 }
 
 header {
     background-color: rgb(0, 157, 255);
+}
+
+h1 {
+    font-family: "IBM Plex Sans", "Montserrat", "Arial", sans-serif;
 }
 
 main {
@@ -31,4 +41,24 @@ main {
 
 footer {
     background-color: rgb(255, 0, 191);
+}
+
+/* Google fonts: "IBM Plex Sans". Use value: 400*/
+/* https://fonts.google.com/specimen/IBM+Plex+Sans */
+.ibm-plex-sans-regular {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* Google fonts: "IBM Plex Sans". Use value 500*/
+/* https://fonts.google.com/specimen/Raleway */
+
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 100 to 900 */
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
