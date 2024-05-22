@@ -1,4 +1,4 @@
-# I LEARN
+# SHELDON
 
 ![amiresponsive-screenshot.png](documentation/amiresponsive-screenshot.png)
 
@@ -6,21 +6,19 @@ View the live site [here](https://magical-places-london-7d2df0d61638.herokuapp.c
 
 ## Introduction
 
-**Magical Places - London** is site for sharing recommendations on hidden gems - the sometimes under-the-radar places that inspire joy and wonder.
+**Sheldon** is a Learning Managment System (LMS) app for Educational Institutions/Course Provider to place their content and students to access and learn from this content.
 
-It’s aimed at people that, for example, have a free afternoon and are looking for something inspiring to do; they can quickly look at the map at which interesting places are near, and save a favourites list to remind them of what to see in the future.
+Special attention has been given to the UX of the app given special care to give the student a good overview and easy navigation of the course content to make the student not feeling lost in all the course content!
 
 ### Project Goals
 
-> What am I aiming to achieve in the first place, and for whom?
+> There seeds to the ideas for Sheldon are two:
 
-The goals for the site’s functionality were:
+1. As a University student and later lecturer at University in Math and Aeronautical Engineering I was disatisfied with the current alternatives and envisioned a tool that implementing my two ideas:
+  a. Topical modules should be created in different categories, theory, examples, equations, exercies etc. Once modules has been filled with content, creating a new course is as easy as stringing modules together like pearls on a string (in a certain order) in a certain order. The modules are reusable so that Creating a new similar course or modifying the current course is to simply restringing some the modules and perhaps creating a few new ones. 
+  b. Secondly, to overcome the problems that the pearls has to be stringed together in a certain order (thus concept might be introduced building on topics that not yet has been covered), Wiki-style, hyperlinks should be created within the modules to overcome (I write Wiki-style however the idea actually preceded Wikipedia).
 
-- Map view: users can view all ‘places’ on a map on the home page.
-- User authentication: users can create an account, sign in and have permissions to edit and delete the comments that they create.
-- Commenting: users have the ability to create, read, update and delete (CRUD) comments.
-- Favouriting: users can favourite and unfavourite a place, and view a list of their favourite places.
-- Create place: users can create a ‘place’ by filling out an autocomplete form powered by the Google Places API.
+2. For as good as the Code Institute course content is I do have identified some room for improvement in its Learning Management Platform. By the way this is actually good news for CI since, despite there current high quality, they can become *even* better!
 
 ## Agile Development
 
@@ -31,6 +29,23 @@ A Kanban board in Github projects was used for the Agile development process - s
 ‘Epics’ were broken down into ‘User Stories’, which were further broken down into ‘Tasks’.
 
 ## User Experience (UX) Design
+
+### Naming
+
+The name for the app was chosen to be "SHELDON", an homage to my favorit character Brainiac student/professor Sheldon Cooper and his group of academic friends in the popular sitcom "Big Bang Theory".
+
+The app naming-ideation started with logic yet generic and ultimatly boring names that did not feel right until a shift in thinking led to the name "Einstein". This name also being not good yet still lead me to think about other people with a similar quality. The name "Sheldon" is similar to "Eistein" yet since it is not mainstream it does not become generic and preditivtive. For people not familiar with the TV-character it simply becomes a name.
+
+| Name          | Short/Easy to say | Descriptive/associative | Non-generic | Memorable | Emotional/Personal | 
+|:------------- | :---- | :----: | :----: | :----: | :----: |
+|  Ilearn | ✓ | ✓✓ |  |  | ✓ |
+|  Digital textbook |  | ✓✓ | ✓ |  |  |
+|  Binarybook | ✓ | ✓ | ✓ | ✓ | ✓ |
+|  Learning Journey* |  | ✓✓ |  |  | ✓ |
+|  Einstein| ✓ | ✓ |  | ✓ | ✓ |
+|  Sheldon | ✓ | ✓ | ✓✓ | ✓✓ | ✓✓ |
+
+A second, unintentional, quality of the name Sheldon is that it associates to Shell (in the meaning of a software shell) which the SHELDON app realy is, a shell for the course content.
 
 ### Wireframes
 
