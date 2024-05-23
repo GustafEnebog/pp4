@@ -18,7 +18,7 @@ Special attention has been given to the UX of the app given special care to give
   a. Topical modules should be created in different categories, theory, examples, equations, exercies etc. Once modules has been filled with content, creating a new course is as easy as stringing modules together like pearls on a string (in a certain order) in a certain order. The modules are reusable so that Creating a new similar course or modifying the current course is to simply restringing some the modules and perhaps creating a few new ones. 
   b. Secondly, to overcome the problems that the pearls has to be stringed together in a certain order (thus concept might be introduced building on topics that not yet has been covered), Wiki-style, hyperlinks should be created within the modules to overcome (I write Wiki-style however the idea actually preceded Wikipedia).
 
-2. For as good as the Code Institute course content is I do have identified some room for improvement in its Learning Management Platform. By the way this is actually good news for CI since, despite there current high quality, they can become *even* better!
+2. For as good as the Code Institute course content is I do have identified some room for improvement in its Learning Management Platform (see UX-section). By the way this is actually good news for CI since, despite there current high quality, they can become *even* better!
 
 ## Agile Development
 
@@ -47,9 +47,21 @@ The app naming-ideation started with logic yet generic and ultimatly boring name
 
 A second, unintentional, quality of the name Sheldon is that it associates to Shell (in the meaning of a software shell) which the SHELDON app realy is, a shell for the course content.
 
-### Wireframes
+### Weakspots in Code Institute LMS
+
+Cannot open a module in a new tab once you are at a module.
+Lack of timestamps and content description (so that I also can search the videos)
+Difficult to binge watch (you need to "close fullscreen", "scroll to next-button (or lesson)", "click start" and finally "click fullscreen! that is foour steps between each video)
+
+### Layout and Wireframes
 
 Low-fidelity wireframes were used to test the design before building the site.
+
+A large amount of time was invested into figura out the optimal layout meeting the following goals:¨
+* Clean uncluttered work space as to not draw attention away from the course content and overwhelm the student with graphic information.
+* Consider grouping items that belong together in the same location
+
+A difficult and desisive decision was to if the integrated curriculum/timeline should be vertical (along left side of view port) or horizontal (underneath and along the header). It was first desided to have it horisontal on small screens and vertical on larger however when it was realised that the inconsistency between small and large screens would be confusing for users it was decided to make it horizontal on both devices. 
 
 Home page:
 
@@ -243,6 +255,29 @@ Mobile layout:
 
 In general, the code could easily be repurposed to create similar sites with a different focus in the places being shared (e.g. cycling-cafes/kids activities/rock-climbing centres etc.).
 
+## Design prinicples Used
+
+- x:
+    - Python
+    - JavaScript
+    - HTML5
+    - CSS3
+- >Patterns:
+    - Model-View-Controller (MVC)
+- Design Thinking:
+    - Empathise-Questions-Examine
+    - Seperation of Concerns
+    - KIS - Keep It Simple
+    - YAGNI - You aren't gonna need it
+    - DRY (Don't Repeat Yourself)
+- Agile(xxx):
+    - User Stories
+    - JavaScript
+    - HTML5
+    - CSS3
+- [Agile](https://agilemanifesto.org/) - as process.
+- 
+
 ## Technologies Used
 
 - Languages:
@@ -408,7 +443,7 @@ Early testing with the WAVE tool flagged up insufficient contrast in some of the
 
 All user stories were tested to confirm that they meet their Acceptance Criteria. The following have all PASSED.
 
-(View the EPICS, User Stories, Acceptance Criteria and Tasks on the GitHub [Kanban Board](https://github.com/users/timgoalen/projects/3)).
+(View the EPICS, User Stories, Acceptance Criteria and Tasks on the GitHub [Kanban Board](https://github.com/users/GustafEnebog/projects/1/views/1?layout=board).
 
 ---
 

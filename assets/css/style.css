@@ -22,7 +22,7 @@ body {
 
 header {
     background-color: rgb(0, 157, 255);
-    /* padding: 0 1rem; */ 
+    /* padding: 0 1rem; */
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -76,13 +76,68 @@ footer {
     background-color: rgb(255, 0, 191);
 }
 
+.flex-container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.flex-child {
+    /*flex: 1;*/
+    border: 2px solid yellow;
+    flex-basis: auto;
+    justify-content: center;
+}
+
+.flex-child:first-child {
+    justify-content: center;
+}
+
+.flex-child > p {
+    display: flex;
+    justify-content: center;  /* Could also use text-align: center; to the flex-child */
+    margin-bottom: 0;
+}
+
+/*.flex-child:first-child {
+    margin-right: 20px;
+    flex-basis: auto;
+} */
+
+/*span {
+    min-width: 0;
+  }*/
+
+.button {
+    background-color: #d3d3d3;
+    color: black;
+    border: 1px solid black;
+    padding: 3px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* font-weight: bold; */
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 0px;
+    float: none;
+}
+
+.button-theory:hover {
+    background-color: white;
+    transition-duration: 0.4s;
+}
+
+/* opacity: 1 button button-theory button button-equation button button-test */
+
 /* Google fonts: "IBM Plex Sans". Use value: 400*/
 /* https://fonts.google.com/specimen/IBM+Plex+Sans */
 .ibm-plex-sans-regular {
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 /* Google fonts: "IBM Plex Sans". Use value 500*/
 /* https://fonts.google.com/specimen/Raleway */
@@ -90,53 +145,8 @@ footer {
 /* <uniquifier>: Use a unique and descriptive class name */
 /* <weight>: Use a value from 100 to 900 */
 .raleway-<uniquifier> {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-/* ----------Responsive Design---------- */
-
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-
-    #menu {
-        display: flex;
-    }
-
-    #menu > li {
-        padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
-
-    /* Main content */
-    main {
-        /* Push main content down to accommodate larger header */
-        margin-top: 79px;
-    }
-}
-
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover{
-        border-bottom: 1px solid #3a3a3a;
-    }
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
