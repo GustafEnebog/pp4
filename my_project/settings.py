@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['8000-gustafenebog-pp4-evj0ro1xhwe.ws-eu111.gitpod.io', '8000-gustafenebog-pp4-evj0ro1xhwe.ws-eu114.gitpod.io']
 
-
 # Application definition
 
 INSTALLED_APPS = [

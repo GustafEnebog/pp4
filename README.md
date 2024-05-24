@@ -151,6 +151,8 @@ glyphColor: "#fff",
 
 ## Features
 
+![ERD Sheldon](assets/images/erd-diagram.jpg)
+
 ### Home page
 
 ![home-page-screenshot.png](documentation/home-page-screenshot.png)
