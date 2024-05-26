@@ -65,7 +65,13 @@ A difficult and desisive decision was to if the integrated curriculum/timeline s
 
 Home page:
 
-![home-page-wireframe.png](documentation/home-page-wireframe.png)
+![x](assets/images/wireframe-horiz-1.jpg)
+![x](assets/images/wireframe-horiz-2.jpg)
+![x](assets/images/wireframe-horiz-3.jpg)
+![x](assets/images/wireframe-horiz-4.jpg)
+![x](assets/images/wireframe-horiz-5.jpg)
+![x](assets/images/wireframe-vert-1.jpg)
+![x](assets/images/wireframe-vert-2.jpg)
 
 List page:
 
@@ -122,7 +128,7 @@ The Places objects are sent to the HTML template as a JSON array of objects. Jav
 
 ![colour-scheme.png](documentation/colour-scheme.png)
 
-The colour scheme was chosen to give an earthy and inviting impression to the user.
+The black, grey and white colour scheme was chosen to give a neutral base that did not compete with the attention for the content or the color coding. The color coding was also limited to a minimum for the same reason 
 
 Contrast accessibility was checked for with [Eightshapes Contrast Grid](https://contrast-grid.eightshapes.com/) and some of the originally chosen colours were darkened to improve their contrast ratio.
 
@@ -243,15 +249,48 @@ Mobile layout:
 ![500-page-screenshot.png](documentation/500-page-screenshot.png)
 
 ## Features to Implement in the Future
-
-- Pagination: add pagination to the list page and detail page comments.
-- Geolocation: add ‘locate user on the map’ functionality.
-- New list-page sort option: sort by most commented place.
+- Types of unit content
+  - Video
+  - image
+  - equations
+  - qoutes
+  - links
+  - eguations
+  - x
+  - x
+  - x
+  - x
+- Unit categories
+  - Introduction
+  - Cheat sheet
+  - Module recap/review
+  - Context unit
+  - User defined
+  - Video
+  - x
+  - x
+- X
+- XS
+- X
+- X
+- X
+- X
+- Navigation with Pace data
+- Thumps up or down (display to admin panel)
+- Login and profile image
+- Course name appearing
+- Login
+- User feedback
+- Bookmark, clipboard (with modal screen) and comments
+- User progress checkboxes
+- From admin panel: Download Course provider logo to be displayed
+- Tool tips
+- Print function
+- Search (between modules) function
+- Expand and collapse text
+- horizontal and vertical arrows that stays put
 - Password reset: add ability to reset password.
 - Social sign-in: allow users to sign in with their Google/Apples/etc. accounts.
-- Google Places API (new): update to the new version of the API.
-- Google ‘place_ids’ can, in theory, expire; a system would be needed for if this happens.
-- User’s created places: allow users to view a list or map of all the places they have created.
 - User profiles: a user page with a list of places created and comments left, either private to the user or publicly accessible.
 - Jest testing: create a suite of JavaScript test using JEST.
 
